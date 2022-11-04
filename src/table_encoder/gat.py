@@ -5,9 +5,9 @@
 @Time       : 2020/12/9 22:20
 @Description: 
 """
-from torch import nn
 import torch.nn.functional as F
 from dgl.nn.pytorch import GATConv
+from torch import nn
 
 
 class GATEncoder(nn.Module):
